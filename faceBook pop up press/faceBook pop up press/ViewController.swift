@@ -110,7 +110,22 @@ class ViewController: UIViewController {
            handleGestureBegan(gesture: gesture)
             
         } else if gesture.state == .ended {
-            iconsContainerView.removeFromSuperview()
+            //clean up the animation
+            UIView.animate(withDuration: 0.5, delay: 1, usingSpringWithDamping: 1, initialSpringVelocity: 1, animations: {
+                let stackView = self.iconsContainerView.subviews.first
+                stackView?.subviews.forEach({
+                    (imageView) in
+                    imageView.transform = .identity
+                })
+                
+                self.iconsContainerView.transform =
+                self.iconsContainerView.transform.translatedBy(x: 0, y: 50)
+                self.iconsContainerView.alpha = 0
+                
+            }, completion: { (_) in
+                    self.iconsContainerView.removeFromSuperview()
+            })
+            
         } else if gesture.state == .changed {
             handelGestureChanget(gesture: gesture)
         }
@@ -120,9 +135,21 @@ class ViewController: UIViewController {
         let pressedLocation = gesture.location(in: self.view)
         print(pressedLocation)
         
+        let fixedYLocation = CGPoint(x: pressedLocation.x, y: self.iconsContainerView.frame.height / 2)
         
-        
-        iconsContainerView.hitTest(pressedLocation, with: nil)
+       let hitTestView = iconsContainerView.hitTest(pressedLocation, with: nil)
+        if hitTestView is UIImageView{
+            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, animations: {
+                
+                let stackView = self.iconsContainerView.subviews.first
+                stackView?.subviews.forEach({
+                    (imageView) in
+                    imageView.transform = .identity
+                })
+                
+                hitTestView?.transform = CGAffineTransform(translationX: 0, y: -50)
+            })
+        }
     }
     
     
