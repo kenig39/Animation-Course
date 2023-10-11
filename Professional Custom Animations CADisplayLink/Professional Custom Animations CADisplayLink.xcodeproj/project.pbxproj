@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA033B312B5D964F00C79752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA033B302B5D964F00C79752 /* AppDelegate.swift */; };
-		FA033B332B5D964F00C79752 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA033B322B5D964F00C79752 /* SceneDelegate.swift */; };
-		FA033B352B5D964F00C79752 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA033B342B5D964F00C79752 /* ViewController.swift */; };
-		FA033B382B5D964F00C79752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA033B362B5D964F00C79752 /* Main.storyboard */; };
-		FA033B3A2B5D964F00C79752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA033B392B5D964F00C79752 /* Assets.xcassets */; };
-		FA033B3D2B5D964F00C79752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA033B3B2B5D964F00C79752 /* LaunchScreen.storyboard */; };
+		FA033B512B5DC3E600C79752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA033B502B5DC3E600C79752 /* AppDelegate.swift */; };
+		FA033B532B5DC3E600C79752 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA033B522B5DC3E600C79752 /* SceneDelegate.swift */; };
+		FA033B552B5DC3E600C79752 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA033B542B5DC3E600C79752 /* ViewController.swift */; };
+		FA033B582B5DC3E600C79752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA033B562B5DC3E600C79752 /* Main.storyboard */; };
+		FA033B5A2B5DC3E800C79752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA033B592B5DC3E800C79752 /* Assets.xcassets */; };
+		FA033B5D2B5DC3E800C79752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA033B5B2B5DC3E800C79752 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA033B2D2B5D964F00C79752 /* AnimationCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA033B302B5D964F00C79752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA033B322B5D964F00C79752 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA033B342B5D964F00C79752 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA033B372B5D964F00C79752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FA033B392B5D964F00C79752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA033B3C2B5D964F00C79752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FA033B3E2B5D964F00C79752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA033B4D2B5DC3E600C79752 /* Professional Custom Animations CADisplayLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Professional Custom Animations CADisplayLink.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA033B502B5DC3E600C79752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA033B522B5DC3E600C79752 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA033B542B5DC3E600C79752 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA033B572B5DC3E600C79752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA033B592B5DC3E800C79752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA033B5C2B5DC3E800C79752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA033B5E2B5DC3E800C79752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FA033B2A2B5D964F00C79752 /* Frameworks */ = {
+		FA033B4A2B5DC3E600C79752 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA033B242B5D964F00C79752 = {
+		FA033B442B5DC3E500C79752 = {
 			isa = PBXGroup;
 			children = (
-				FA033B2F2B5D964F00C79752 /* AnimationCourse */,
-				FA033B2E2B5D964F00C79752 /* Products */,
+				FA033B4F2B5DC3E600C79752 /* Professional Custom Animations CADisplayLink */,
+				FA033B4E2B5DC3E600C79752 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FA033B2E2B5D964F00C79752 /* Products */ = {
+		FA033B4E2B5DC3E600C79752 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA033B2D2B5D964F00C79752 /* AnimationCourse.app */,
+				FA033B4D2B5DC3E600C79752 /* Professional Custom Animations CADisplayLink.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA033B2F2B5D964F00C79752 /* AnimationCourse */ = {
+		FA033B4F2B5DC3E600C79752 /* Professional Custom Animations CADisplayLink */ = {
 			isa = PBXGroup;
 			children = (
-				FA033B302B5D964F00C79752 /* AppDelegate.swift */,
-				FA033B322B5D964F00C79752 /* SceneDelegate.swift */,
-				FA033B342B5D964F00C79752 /* ViewController.swift */,
-				FA033B362B5D964F00C79752 /* Main.storyboard */,
-				FA033B392B5D964F00C79752 /* Assets.xcassets */,
-				FA033B3B2B5D964F00C79752 /* LaunchScreen.storyboard */,
-				FA033B3E2B5D964F00C79752 /* Info.plist */,
+				FA033B502B5DC3E600C79752 /* AppDelegate.swift */,
+				FA033B522B5DC3E600C79752 /* SceneDelegate.swift */,
+				FA033B542B5DC3E600C79752 /* ViewController.swift */,
+				FA033B562B5DC3E600C79752 /* Main.storyboard */,
+				FA033B592B5DC3E800C79752 /* Assets.xcassets */,
+				FA033B5B2B5DC3E800C79752 /* LaunchScreen.storyboard */,
+				FA033B5E2B5DC3E800C79752 /* Info.plist */,
 			);
-			path = AnimationCourse;
+			path = "Professional Custom Animations CADisplayLink";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA033B2C2B5D964F00C79752 /* AnimationCourse */ = {
+		FA033B4C2B5DC3E600C79752 /* Professional Custom Animations CADisplayLink */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA033B412B5D964F00C79752 /* Build configuration list for PBXNativeTarget "AnimationCourse" */;
+			buildConfigurationList = FA033B612B5DC3E800C79752 /* Build configuration list for PBXNativeTarget "Professional Custom Animations CADisplayLink" */;
 			buildPhases = (
-				FA033B292B5D964F00C79752 /* Sources */,
-				FA033B2A2B5D964F00C79752 /* Frameworks */,
-				FA033B2B2B5D964F00C79752 /* Resources */,
+				FA033B492B5DC3E600C79752 /* Sources */,
+				FA033B4A2B5DC3E600C79752 /* Frameworks */,
+				FA033B4B2B5DC3E600C79752 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AnimationCourse;
-			productName = AnimationCourse;
-			productReference = FA033B2D2B5D964F00C79752 /* AnimationCourse.app */;
+			name = "Professional Custom Animations CADisplayLink";
+			productName = "Professional Custom Animations CADisplayLink";
+			productReference = FA033B4D2B5DC3E600C79752 /* Professional Custom Animations CADisplayLink.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FA033B252B5D964F00C79752 /* Project object */ = {
+		FA033B452B5DC3E500C79752 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					FA033B2C2B5D964F00C79752 = {
+					FA033B4C2B5DC3E600C79752 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = FA033B282B5D964F00C79752 /* Build configuration list for PBXProject "AnimationCourse" */;
+			buildConfigurationList = FA033B482B5DC3E500C79752 /* Build configuration list for PBXProject "Professional Custom Animations CADisplayLink" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = FA033B242B5D964F00C79752;
-			productRefGroup = FA033B2E2B5D964F00C79752 /* Products */;
+			mainGroup = FA033B442B5DC3E500C79752;
+			productRefGroup = FA033B4E2B5DC3E600C79752 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA033B2C2B5D964F00C79752 /* AnimationCourse */,
+				FA033B4C2B5DC3E600C79752 /* Professional Custom Animations CADisplayLink */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FA033B2B2B5D964F00C79752 /* Resources */ = {
+		FA033B4B2B5DC3E600C79752 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA033B3D2B5D964F00C79752 /* LaunchScreen.storyboard in Resources */,
-				FA033B3A2B5D964F00C79752 /* Assets.xcassets in Resources */,
-				FA033B382B5D964F00C79752 /* Main.storyboard in Resources */,
+				FA033B5D2B5DC3E800C79752 /* LaunchScreen.storyboard in Resources */,
+				FA033B5A2B5DC3E800C79752 /* Assets.xcassets in Resources */,
+				FA033B582B5DC3E600C79752 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FA033B292B5D964F00C79752 /* Sources */ = {
+		FA033B492B5DC3E600C79752 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA033B352B5D964F00C79752 /* ViewController.swift in Sources */,
-				FA033B312B5D964F00C79752 /* AppDelegate.swift in Sources */,
-				FA033B332B5D964F00C79752 /* SceneDelegate.swift in Sources */,
+				FA033B552B5DC3E600C79752 /* ViewController.swift in Sources */,
+				FA033B512B5DC3E600C79752 /* AppDelegate.swift in Sources */,
+				FA033B532B5DC3E600C79752 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FA033B362B5D964F00C79752 /* Main.storyboard */ = {
+		FA033B562B5DC3E600C79752 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FA033B372B5D964F00C79752 /* Base */,
+				FA033B572B5DC3E600C79752 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FA033B3B2B5D964F00C79752 /* LaunchScreen.storyboard */ = {
+		FA033B5B2B5DC3E800C79752 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FA033B3C2B5D964F00C79752 /* Base */,
+				FA033B5C2B5DC3E800C79752 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FA033B3F2B5D964F00C79752 /* Debug */ = {
+		FA033B5F2B5DC3E800C79752 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		FA033B402B5D964F00C79752 /* Release */ = {
+		FA033B602B5DC3E800C79752 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +280,7 @@
 			};
 			name = Release;
 		};
-		FA033B422B5D964F00C79752 /* Debug */ = {
+		FA033B622B5DC3E800C79752 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -288,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnimationCourse/Info.plist;
+				INFOPLIST_FILE = "Professional Custom Animations CADisplayLink/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -299,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = skillbox.AnimationCourse;
+				PRODUCT_BUNDLE_IDENTIFIER = "skillbox.Professional-Custom-Animations-CADisplayLink";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		FA033B432B5D964F00C79752 /* Release */ = {
+		FA033B632B5DC3E800C79752 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -315,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnimationCourse/Info.plist;
+				INFOPLIST_FILE = "Professional Custom Animations CADisplayLink/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = skillbox.AnimationCourse;
+				PRODUCT_BUNDLE_IDENTIFIER = "skillbox.Professional-Custom-Animations-CADisplayLink";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA033B282B5D964F00C79752 /* Build configuration list for PBXProject "AnimationCourse" */ = {
+		FA033B482B5DC3E500C79752 /* Build configuration list for PBXProject "Professional Custom Animations CADisplayLink" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA033B3F2B5D964F00C79752 /* Debug */,
-				FA033B402B5D964F00C79752 /* Release */,
+				FA033B5F2B5DC3E800C79752 /* Debug */,
+				FA033B602B5DC3E800C79752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA033B412B5D964F00C79752 /* Build configuration list for PBXNativeTarget "AnimationCourse" */ = {
+		FA033B612B5DC3E800C79752 /* Build configuration list for PBXNativeTarget "Professional Custom Animations CADisplayLink" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA033B422B5D964F00C79752 /* Debug */,
-				FA033B432B5D964F00C79752 /* Release */,
+				FA033B622B5DC3E800C79752 /* Debug */,
+				FA033B632B5DC3E800C79752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FA033B252B5D964F00C79752 /* Project object */;
+	rootObject = FA033B452B5DC3E500C79752 /* Project object */;
 }

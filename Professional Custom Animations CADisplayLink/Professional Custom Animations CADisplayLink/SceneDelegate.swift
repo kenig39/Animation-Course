@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  AnimationCourse
+//  Professional Custom Animations CADisplayLink
 //
-//  Created by Alexander on 11.10.2023.
+//  Created by Alexander on 22.01.2024.
 //
 
 import UIKit
