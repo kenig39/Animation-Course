@@ -13,9 +13,46 @@ class ViewController: UIViewController {
 
     let iconsContainerView: UIView = {
         let conteinerView = UIView()
-        conteinerView.backgroundColor = .red
+        conteinerView.backgroundColor = .white
         
-        conteinerView.frame = CGRect(x: 0, y: 0, width: 200, height: 100)
+//        let redView = UIView()
+//        redView.backgroundColor = .red
+//        let blueView = UIView()
+//        blueView.backgroundColor = .blue
+//        let yellowView = UIView()
+//        yellowView.backgroundColor = .yellow
+//        let garayView = UIView()
+//        garayView.backgroundColor = .gray
+//
+//        let arraySabViews = [redView, blueView, yellowView, garayView]
+//
+//
+       let arraySabViews = [UIColor.red, .blue].map({(color) -> UIView in
+            let v = UIView()
+            v.backgroundColor = color
+            return v
+        })
+        
+        let stackView = UIStackView(arrangedSubviews: arraySabViews)
+        stackView.distribution = .fillEqually
+        
+        
+        //configuration actions
+        let iconHeight: CGFloat = 50
+        let padding: CGFloat = 8
+        
+        stackView.spacing = padding
+        stackView.layoutMargins = UIEdgeInsets(top: padding, left: padding, bottom: padding, right: padding)
+        stackView.isLayoutMarginsRelativeArrangement = true
+        
+        conteinerView.addSubview(stackView)
+        
+        let numIcons = CGFloat(arraySabViews.count)
+        let width = numIcons * iconHeight + (numIcons + 1) * padding
+        
+        conteinerView.frame = CGRect(x: 0, y: 0, width: 200, height: iconHeight + 2 * padding)
+        stackView.frame = conteinerView.frame
+        
         return conteinerView
     }()
     
