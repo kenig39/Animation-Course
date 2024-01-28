@@ -5,6 +5,9 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    
+  
+    
     let bgImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "screen")
@@ -26,31 +29,60 @@ class ViewController: UIViewController {
 //
 //        let arraySabViews = [redView, blueView, yellowView, garayView]
 //
-//
-       let arraySabViews = [UIColor.red, .blue].map({(color) -> UIView in
-            let v = UIView()
-            v.backgroundColor = color
-            return v
-        })
-        
-        let stackView = UIStackView(arrangedSubviews: arraySabViews)
-        stackView.distribution = .fillEqually
         
         
         //configuration actions
-        let iconHeight: CGFloat = 50
-        let padding: CGFloat = 8
+        let iconHeight: CGFloat = 30
+        let padding: CGFloat = 6
         
+        
+        let images = [UIImage(named: "like"), UIImage(named: "feedback")]
+//
+        let arrayImages = images.map ({ (image) -> UIView in
+            let imageView = UIImageView(image: image)
+            imageView.layer.cornerRadius = iconHeight / 2
+            
+                // required for hit testing
+            
+            imageView.isUserInteractionEnabled = true
+            return imageView
+            
+        })
+        
+        
+        
+//        let arraySabViews = [UIColor.red, .blue, .yellow, .orange, .gray].map({(color) -> UIView in
+//            let v = UIView()
+//            v.backgroundColor = color
+//           v.layer.cornerRadius = iconHeight / 2
+//            return v
+//        })
+        
+        let stackView = UIStackView(arrangedSubviews: arrayImages)
+        stackView.distribution = .fillEqually
+        
+       
         stackView.spacing = padding
         stackView.layoutMargins = UIEdgeInsets(top: padding, left: padding, bottom: padding, right: padding)
         stackView.isLayoutMarginsRelativeArrangement = true
         
         conteinerView.addSubview(stackView)
         
-        let numIcons = CGFloat(arraySabViews.count)
+        let numIcons = CGFloat(arrayImages.count)
         let width = numIcons * iconHeight + (numIcons + 1) * padding
         
         conteinerView.frame = CGRect(x: 0, y: 0, width: 200, height: iconHeight + 2 * padding)
+        
+        conteinerView.layer.cornerRadius = conteinerView.frame.height / 2
+        
+        // shadow
+        
+        conteinerView.layer.shadowColor = UIColor(white: 0.4, alpha: 0.4).cgColor
+        conteinerView.layer.shadowRadius = 8
+        conteinerView.layer.shadowOpacity = 0.5
+        conteinerView.layer.shadowOffset = CGSize(width: 0, height: 4)
+        
+        
         stackView.frame = conteinerView.frame
         
         return conteinerView
@@ -79,8 +111,18 @@ class ViewController: UIViewController {
             
         } else if gesture.state == .ended {
             iconsContainerView.removeFromSuperview()
-            
+        } else if gesture.state == .changed {
+            handelGestureChanget(gesture: gesture)
         }
+    }
+    
+    fileprivate func handelGestureChanget(gesture: UILongPressGestureRecognizer) {
+        let pressedLocation = gesture.location(in: self.view)
+        print(pressedLocation)
+        
+        
+        
+        iconsContainerView.hitTest(pressedLocation, with: nil)
     }
     
     
